@@ -1,3 +1,6 @@
+provider "aws" {
+    region = "ap-south-1"
+}
 resource "aws_instance" "ansible-master" {
   #public instances
   ami           = "ami-08e5424edfe926b43"
